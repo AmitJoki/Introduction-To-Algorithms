@@ -3,18 +3,18 @@ Code for algorithms in the book [Introduction to Algorithms](https://en.wikipedi
 
 The code does not necessarily follow the algorithms provided in the book *per se* and a simpler algorithm is chosen if available.
 
-## Languages currently available:
+## Languages currently available
 
 * JavaScript
 * Python
 
-## Notes:
+## Notes
 
 ### For JavaScript:
 
 If you know your way around to make ES6 run, that's good and you can use the code as is. For those who can't be bothered about setting up Babel, you could manually copy the imports into the required file and remove the `import` and `export` keywords and you should be good to go!
 
-## Index:
+## Index
 
 ### JavaScript
 
