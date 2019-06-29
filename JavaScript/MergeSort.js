@@ -1,6 +1,6 @@
 // Ported from source: https://interactivepython.org/runestone/static/pythonds/SortSearch/TheMergeSort.html
 
-function mergeSort(arr) {
+export function mergeSort(arr) {
   console.log(`Splitting ${arr}`);
   let n = arr.length;
   if (n > 1) {

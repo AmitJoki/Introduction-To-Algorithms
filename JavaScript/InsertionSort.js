@@ -1,6 +1,6 @@
 // Insertion Sort
 
-function insertSort(arr) {
+export default function insertSort(arr) {
   for (let i = 1; i < arr.length; i++) {
 
     // Pick the key

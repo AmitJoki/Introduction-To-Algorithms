@@ -3,13 +3,9 @@
 
 // See: Kadane's Algorithm (https://en.wikipedia.org/wiki/Maximum_subarray_problem)
 
-// Helper function for max
+import { max } from './utils.js'
 
-function max(arr) {
-  return Math.max.apply(null, arr);
-}
-
-function maxSubArray( arr ) {
+export default function maxSubArray( arr ) {
   let sumUntilNow = 0;
   let bestStart = start = end = bestSoFar = 0;
   arr.forEach((val, idx) => {

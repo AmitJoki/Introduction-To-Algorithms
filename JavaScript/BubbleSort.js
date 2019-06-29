@@ -1,4 +1,6 @@
-function bubbleSort(arr) {
+// Bubble Sort
+
+export default function bubbleSort(arr) {
   for (let i = 1; i < arr.length - 1; i++) {
     for (let j = arr.length; j > 0; j--) {
       if (arr[j] < arr[j - 1]) {

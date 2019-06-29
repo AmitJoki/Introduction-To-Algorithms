@@ -1,4 +1,4 @@
-function maxHeapify(a, n, i) {
+export function maxHeapify(a, n, i) {
   let left = 2 * i;
   let right = 2 * i + 1;
   let largest = i;
@@ -15,13 +15,13 @@ function maxHeapify(a, n, i) {
   }
 }
 
-function buildMaxHeap(a) {
+export function buildMaxHeap(a) {
   for (let i = Math.floor(a.length / 2); i > -1; i--) {
     maxHeapify(a, a.length, i);
   }
 }
 
-function heapSort(a) {
+export default function heapSort(a) {
   buildMaxHeap(a);
   for (let i = a.length - 1; i > -1; i--) {
     [a[0], a[i]] = [a[i], a[0]];
