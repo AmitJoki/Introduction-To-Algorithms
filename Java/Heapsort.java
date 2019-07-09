@@ -67,10 +67,7 @@ class HeapSort {
         heap.Heap(arr);
         int sorted[]=heap.heapSort(arr);
         for (int var : sorted) {
-            System.out.print(var+" ");
-            
-        }
-            
-        
+            System.out.print(var+" ");            
+        }                  
     }
 }
