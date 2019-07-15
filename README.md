@@ -36,6 +36,6 @@ If you know your way around to make ES6 run, that's good and you can use the cod
 * [Max Priority Queue](Python/MaxPriorityQueue.py)
 
 ### Java
-*[Insertion Sort](Java/InsertionSort.java)
-*[Heap Sort](Java/HeapSort.java)
-*[Quick Sort](Java/QuickSort.java)
+* [Insertion Sort](Java/InsertionSort.java)
+* [Heap Sort](Java/HeapSort.java)
+* [Quick Sort](Java/QuickSort.java)
